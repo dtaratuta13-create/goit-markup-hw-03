@@ -40,6 +40,7 @@ img {
 .flex-container {
   display: flex;
   justify-content: space-between;
+  border: 1px solid #e7e9fc;
 }
 .navigation {
   display: flex;
@@ -183,7 +184,6 @@ img {
   display: block;
   margin: 0 auto;
   min-width: 169px;
-  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -256,7 +256,7 @@ img {
 }
 .our-team-img {
   background-color: #ffffff;
-  margin: right 24px;
+  margin-right: 24px;
 }
 .our-team-member {
   color: #2e2f42;
@@ -305,7 +305,7 @@ img {
 }
 
 .our-team-card {
-  width: calc((100% - 24px * 3, 1) / 4);
+  width: calc((100% - 24px * 3) / 4);
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   background-color: #ffffff;
@@ -318,7 +318,7 @@ img {
   flex-wrap: wrap;
   gap: 48px 24px;
 
-  margin: bottom 120px;
+  margin-bottom: 120px;
 }
 
 .section-title {
