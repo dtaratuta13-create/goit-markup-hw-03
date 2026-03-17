@@ -40,7 +40,10 @@ img {
 .flex-container {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #e7e9fc;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .navigation {
   display: flex;
@@ -63,10 +66,6 @@ img {
   display: flex;
 }
 
-.list-list-item:not(:last-child) {
-  margin-right: 40px;
-}
-
 .list-reset .address-link {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -82,8 +81,8 @@ img {
 
 .address .list-reset {
   display: flex;
-  gap: 24px;
   align-items: center;
+  gap: 40px;
 }
 
 .address-link:hover,
@@ -94,8 +93,8 @@ img {
   font-style: normal;
 }
 
-.address-list-item:not(:last-child) {
-  margin-right: 40px;
+.list-list-item:not(:last-child) {
+  margin-right: 0px;
 }
 /* -------------Logo1------------- */
 
@@ -142,6 +141,10 @@ img {
   text-decoration: none;
   color: #2e2f42;
   transition: color 250ms ease;
+
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation-link:hover,
@@ -155,25 +158,18 @@ img {
 .main-header {
   background-color: #2e2f42;
   color: #ffffff;
+}
 
-  .main-header-logo {
-    text-align: center;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    text-align: center;
-    max-width: 496px;
-    margin: 0 auto;
-    margin-bottom: 48px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-  }
+.main-header-logo {
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  font-size: 56px;
 }
 .button-main-header {
   padding-top: 16px;
@@ -199,7 +195,7 @@ img {
   outline: none;
 }
 /* -------------Our Features------------- */
-.our-features {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -214,6 +210,7 @@ img {
 
 .features-list {
   display: flex;
+  gap: 24px;
 }
 
 .feature-title {
@@ -224,7 +221,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   width: 264px;
-  margin-right: 24px;
   margin-bottom: 8px;
 }
 
@@ -236,11 +232,14 @@ img {
 
 .features-list-items {
   width: 264px;
-  margin-right: 24px;
 }
 
 .features-list-items:last-child {
   margin-right: 0;
+}
+
+.team-card-body {
+  padding: 32px 16px;
 }
 /* -------------Our Team------------- */
 .our-team {
@@ -268,7 +267,6 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.2;
 
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -281,8 +279,8 @@ img {
   font-style: normal;
   font-size: 16px;
   text-align: center;
-  margin-bottom: 32px;
 }
+
 .header-our-team {
   font-size: 36px;
   line-height: 1.1;
@@ -317,8 +315,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-
-  margin-bottom: 120px;
 }
 
 .section-title {
