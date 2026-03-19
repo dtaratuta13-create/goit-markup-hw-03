@@ -62,11 +62,11 @@ img {
 }
 
 /* -------------Address------------- */
-.list-reset {
+.address-list {
   display: flex;
 }
 
-.list-reset .address-link {
+.address-link {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
@@ -79,7 +79,7 @@ img {
   text-decoration: none;
 }
 
-.address .list-reset {
+.address {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -94,7 +94,7 @@ img {
 }
 
 .list-list-item:not(:last-child) {
-  margin-right: 0px;
+  margin-right: 40px;
 }
 /* -------------Logo1------------- */
 
@@ -186,6 +186,7 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  border: none;
 }
 
 .button-main-header:hover,
