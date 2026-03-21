@@ -114,9 +114,7 @@ img {
   display: block;
 }
 
-.section {
-  padding: 120px 0;
-}
+
 .hero-section {
   padding-top: 188px;
   padding-bottom: 188px;
@@ -282,17 +280,8 @@ img {
   text-align: center;
 }
 
-.header-our-team {
-  font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
-  color: #2e2f42;
-}
 
-.position {
-  font-size: 16px;
-  line-height: 1.5;
-}
+
 
 .team-list {
   display: flex;
@@ -328,7 +317,7 @@ img {
   color: #2e2f42;
 
   margin-bottom: 72px;
-  display: flex;
+  display: block;
   justify-content: center;
 }
 
@@ -358,25 +347,8 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* -------------Logo2------------- */
-
-.logo {
-  color: #2e2f42;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-
 /* -------------FOOTER------------- */
 
-.main-footer-logo-add span {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-}
 .main-footer-logo {
   background-color: #2e2f42;
   text-decoration: none;
